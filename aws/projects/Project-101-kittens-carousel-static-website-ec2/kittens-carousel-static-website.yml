@@ -28,58 +28,11 @@ Resources:
   LogicalID:
     Type: AWS::EC2::Instance
     Properties:
-      AdditionalInfo: "String"
-      Affinity: "String"
-      AvailabilityZone: "String"
-      BlockDeviceMappings:
-        BlockDeviceMappings
-      CpuOptions:
-        CoreCount: Number
-        ThreadsPerCore: Number
-      CreditSpecification:
-        CPUCredits: "Number"
-      DisableApiTermination: false
-      EbsOptimized: false
-      ElasticGpuSpecifications:
-        ElasticGpuSpecifications
-      ElasticInferenceAccelerators:
-        ElasticInferenceAccelerators
-      EnclaveOptions:
-        Enabled: false
-      HibernationOptions:
-        Configured: false
-      HostId: "String"
-      HostResourceGroupArn: "String"
-      IamInstanceProfile: "String"
-      ImageId: "String"
-      InstanceInitiatedShutdownBehavior: "String"
-      InstanceType: "String"
-      Ipv6AddressCount: Number
-      Ipv6Addresses:
-        Ipv6Addresses
-      KernelId: "String"
-      KeyName: "String"
-      LaunchTemplate:
-        LaunchTemplateId: "String"
-        LaunchTemplateName: "String"
-        Version: "String"
-      LicenseSpecifications:
-        LicenseSpecifications
-      Monitoring: String
-      NetworkInterfaces:
-        NetworkInterfaces
-      PlacementGroupName: "String"
-      PrivateIpAddress: "String"
-      PropagateTagsToVolumeOnCreation: false
-      RamdiskId: "String"
+      ImageId: ami-0a8b4cd432b1c3063
+      InstanceType: t2.micro
+      KeyName: firstkey
       SecurityGroupIds:
-        SecurityGroupIds
-      SecurityGroups:
-        SecurityGroups
-      SourceDestCheck: false
-      SsmAssociations:
-        SsmAssociations
-      SubnetId: "String"
+        !Ref WebServerSecurityGroup
       Tags:
         Tags
       Tenancy: "String"
