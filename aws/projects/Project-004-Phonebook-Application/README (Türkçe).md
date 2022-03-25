@@ -63,4 +63,5 @@ Biraz evvel klonladığın 'private-my-projects' klasörü içine 'Project-004-P
 'Project-004-Phonebook-Application' klasörünü VSCode ile çalıştır.
 
 Açılan dosyalar incelendiğinde 'add-update.html', 'delete.html' ve 'index.html' gibi template dosyaları ile 'phonebook-app.py'
-dosyasının hazır olduğunu göreceğiz. Bizden istenen bu mimariyi ayağa kaldıracak CloudFormation. Geri kalan kısmı
+dosyasının hazır olduğunu göreceğiz. Bizden istenen bu mimariyi ayağa kaldıracak CloudFormation. Geri kalan kısmı İngilizce
+readme'de.
